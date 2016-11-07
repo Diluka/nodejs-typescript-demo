@@ -1,0 +1,21 @@
+{
+  "name": "nodejs-typescript-demo",
+  "dependencies": {
+    "body-parser": "registry:npm/body-parser#1.15.2+20160815132839",
+    "express": "registry:npm/express#4.14.0+20160925001530",
+    "lodash": "registry:npm/lodash#4.0.0+20161015015725",
+    "passport": "registry:npm/passport#0.3.0+20161028163825",
+    "passport-strategy": "registry:npm/passport-strategy#1.0.0+20161027023236",
+    "redis": "registry:npm/redis#2.6.0+20160901110043",
+    "sequelize": "registry:npm/sequelize#4.0.0-1+20161101121248"
+  },
+  "globalDependencies": {
+    "bluebird": "registry:dt/bluebird#3.0.0+20160928162057",
+    "form-data": "registry:dt/form-data#0.0.0+20160724024111",
+    "morgan": "registry:dt/morgan#1.7.0+20160524142355",
+    "multer": "registry:dt/multer#0.0.0+20160829120954",
+    "node": "registry:env/node#6.0.0+20161105011511",
+    "request": "registry:dt/request#0.0.0+20160726020908",
+    "request-promise": "registry:dt/request-promise#4.1.0+20161013074249"
+  }
+}

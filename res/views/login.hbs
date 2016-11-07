@@ -1,0 +1,15 @@
+<html>
+
+<head></head>
+
+<body>
+    <form action="/login" method="POST">
+        {{#if message}}<span style="color:red">{{message}}</span><br>{{/if}}
+        {{error}}
+        <label>username: </label><input type="text" name="username" required><br>
+        <label>password: </label><input type="password" name="password" required><br>
+        <button type="submit">login</button>
+    </form>
+</body>
+
+</html>
