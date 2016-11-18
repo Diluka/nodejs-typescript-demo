@@ -2,10 +2,8 @@ import "reflect-metadata";
 import "./database";
 import { User } from "./models/user";
 
-const env = process.env["NODE_ENV"] || "development";
-
-function init() {
-  Promise.all([
+export function initDatabase() {
+  return Promise.all([
     User.sync({ force: true })
   ]).then(() =>
     Promise.all([
@@ -14,10 +12,5 @@ function init() {
       ])
     ]));
 }
-
-if (env === "development") {
-  init();
-}
-
 
 export { app } from "./app";
